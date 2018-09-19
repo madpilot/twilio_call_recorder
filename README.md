@@ -12,6 +12,6 @@ find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
 zip -r lambda.zip *
 ```
 
-## Liscence
+## Licence
 
-See LISCENCE.txt
+See LICENSE
