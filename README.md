@@ -6,7 +6,12 @@ A simple AWS Lambda that allows you to call a Twilio incoming number, dial anoth
 
 ```bash
 git clone git https://github.com/madpilot/twilio-call-recorder
+twilio-call-recorder
 pip install -t twilio
 find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
 zip -r lambda.zip *
 ```
+
+## Liscence
+
+See LISCENCE.txt
