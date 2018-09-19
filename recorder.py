@@ -2,7 +2,7 @@ from twilio.twiml.voice_response import VoiceResponse, Say, Gather, Dial
 from urllib.parse import parse_qs
 
 LANGUAGE="en-AU"
-AUTHORISED_NUMBERS = ['ADD YOUR PHONE NUMBER HERE IN INTERNATION FORMAT ie +61400000000']
+AUTHORISED_NUMBERS = ['ADD YOUR PHONE NUMBER HERE IN INTERNATIONAL FORMAT ie +61400000000']
 
 def authorized_number(number):
     return number in AUTHORISED_NUMBERS
